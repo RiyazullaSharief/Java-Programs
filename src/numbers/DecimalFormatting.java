@@ -41,9 +41,9 @@ public class DecimalFormatting
 		System.out.println("Value1= "+value1);
 		String averageTotalValue=two.format(averageTotal);
 		System.out.println("AverageTotalValue= "+averageTotalValue);
-	    System.out.println("Value= "+two.format(value)); 
-	    System.out.println("Value= "+two.format(25.00d));
-	    System.out.println("Value= "+two.format(25));
-	    System.out.println("Value= "+two.format(25.666));
+	    	System.out.println("Value= "+two.format(value)); 
+	    	System.out.println("Value= "+two.format(25.00d));
+	    	System.out.println("Value= "+two.format(25));
+	    	System.out.println("Value= "+two.format(25.666));
 	}
 }
